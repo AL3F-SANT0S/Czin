@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main (){
-    int numero1 = 10;
-    int numero2 = 20;
+switch (variavel) {
+  case valor1:
+    // Código a ser executado se variavel == valor1
+    break;
+  case valor2:
+    // Código a ser executado se variavel == valor2
+    break;
+  // Você pode adicionar quantos casos forem necessários
+  default:
+    // Código a ser executado se nenhum dos casos acima for verdadeiro
+}
 
-    /*numero1 = 10;
-    numero2 = 9;*/
-
-    if (numero1 > numero2) {
-        printf("Número 01 é maior\n");
-    } if (numero1 < numero2) {
-        printf("Número 02 é maior\n");
-    }
 
 }
