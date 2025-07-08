@@ -1,17 +1,23 @@
 #include <stdio.h>
 
-int main (){
-switch (variavel) {
-  case valor1:
-    // Código a ser executado se variavel == valor1
-    break;
-  case valor2:
-    // Código a ser executado se variavel == valor2
-    break;
-  // Você pode adicionar quantos casos forem necessários
-  default:
-    // Código a ser executado se nenhum dos casos acima for verdadeiro
-}
+int main()
+{
 
+    int variavel;
 
+    printf("Insira um número: ");
+    scanf("%d", &variavel);
+
+    switch (variavel)
+    {
+    case 1:
+        printf("\n1\n");
+        break;
+    case 2:
+        printf("\n2\n");
+        break;
+    // Você pode adicionar quantos casos forem necessários
+    default:
+        printf("\nNenhuma condição atendida!\n\n");
+    }
 }
